@@ -1,1 +1,6 @@
-# vim_config
+# My vim config
+
+# Plugins
+
+## Nerd tree
+
