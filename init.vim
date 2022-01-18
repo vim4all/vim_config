@@ -26,10 +26,14 @@ Plug 'wakatime/vim-wakatime'
 
 Plug 'https://github.com/McSinyx/vim-octave.git', {'for': 'octave'}
 
+Plug 'rhysd/vim-grammarous'
+
+Plug 'pangloss/vim-javascript'
+
 call plug#end()
 
 "===============================================================================
-let g:minimap_width = 10
+let g:minimap_width = 20
 let g:minimap_auto_start = 1
 let g:minimap_auto_start_win_enter = 1
 
@@ -96,7 +100,7 @@ colorscheme onedark
 filetype on
 filetype plugin indent on
 
-let g:python3_host_prog = 'C:\_wrk\Soft\python\python.exe'
+" let g:python3_host_prog = 'C:\_wrk\Soft\python\python.exe'
 
 "==============================================================================
 " lightline
