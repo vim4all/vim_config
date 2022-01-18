@@ -9,6 +9,8 @@ Plug 'joshdick/onedark.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'frazrepo/vim-rainbow'
+Plug 'Yggdroot/indentLine'
+Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 
 Plug 'vim-syntastic/syntastic'
 
@@ -20,13 +22,7 @@ Plug 'ferrine/md-img-paste.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'reconquest/vim-pythonx'
 
-Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
-
-Plug 'Yggdroot/indentLine'
-
 Plug 'wakatime/vim-wakatime'
-
-
 
 Plug 'https://github.com/McSinyx/vim-octave.git', {'for': 'octave'}
 
@@ -38,6 +34,7 @@ let g:minimap_auto_start = 1
 let g:minimap_auto_start_win_enter = 1
 
 let g:indentLine_char = '┊'
+let g:indentLine_fileTypeExclude = ['tex']
 
 " autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
 nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
@@ -88,7 +85,6 @@ set nu
 
 :set cursorline
 :set cursorcolumn
-
 
 "===============================================================================
 " mouse
