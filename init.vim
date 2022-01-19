@@ -37,12 +37,13 @@ let g:minimap_width = 20
 let g:minimap_auto_start = 1
 let g:minimap_auto_start_win_enter = 1
 
+" Set ident line style and turn off tex files support
 let g:indentLine_char = '┊'
 let g:indentLine_fileTypeExclude = ['tex']
 
+" Image paste setup
 " autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
 nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
-
 autocmd FileType markdown let g:PasteImageFunction = 'g:MarkdownPasteImage'
 autocmd FileType tex let g:PasteImageFunction = 'g:LatexPasteImage'
 
