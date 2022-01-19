@@ -2,23 +2,30 @@
 
 # Plugins
 
-1. Nerdtree
-1. Nerdtree tabs
-1. Tagbar - tags
-1. Vimspector - debugger
+1. *nerdtree* - file tree
+1. *vim-nerdtree-tabs* tabs
+1. *tagbar* - tags
+1. *vimspector* - debugger
 
 ### Style
 
-1. Onedark - color theme
-1. Lightline - 
-1. devicons - pictograms
-1. rainbow - brackets colors
-1. identline - scopes lines
-1. minimap
+1. *onedark - color theme
+1. *lightline - 
+1. *vim-devicons - pictograms
+1. *vim-rainbow - brackets colors
+1. *identLine - scopes lines
+1. *minimap - minimap of code
 
-1. Coc - autocomplete
+1. *coc - autocomplete
+1. *vimtex - plugin for latex
+1. *md-img-paste* - images paste
 
-1. Vimtex - plugin for latex
+1. *vim-gitgutter* - git support
+1. *vim-pythonx*
 
-1. md-img-paste - images paste
+1. *vim-wakatime* - programming monitor
+1. *vim-octave* - octave identation and etc
+
+1. *vim-gramous* - grammar check (TO TEST)
+1. *vim-javascript* - javascript identation and etc
 
