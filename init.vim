@@ -20,6 +20,8 @@ Plug 'lervag/vimtex'
 Plug 'ferrine/md-img-paste.vim'
 
 Plug 'airblade/vim-gitgutter'
+Plug 'vim-scripts/vim-svngutter'
+
 Plug 'reconquest/vim-pythonx'
 
 Plug 'wakatime/vim-wakatime'
@@ -29,6 +31,8 @@ Plug 'https://github.com/McSinyx/vim-octave.git', {'for': 'octave'}
 Plug 'rhysd/vim-grammarous'
 
 Plug 'pangloss/vim-javascript'
+
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 call plug#end()
 
