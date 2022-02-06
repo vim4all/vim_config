@@ -1,30 +1,36 @@
 # My vim config
+Моя конфігурація Neovim для Windows.
+Використовується переважно для:
+- Програмування на мовах C, Python, JavaScript
+- Написаня документів Latex
+- Редагування Markdown, HTML
+
 My neovim configuration for Windows.
 It is mosly used for:
-- Python programming
-- C programming
+- Python, C, JavaScript programming
 - Writing Latex documents
+- Markdown, HTML editing
 
 ***
 
-## Plugins
+## Плагіни \ Plugins
 
 ### Files and code navigation
-1. **nerdtree** - file tree
+1. **nerdtree** - дерево файлів \ file tree
 1. **vim-nerdtree-tabs** tabs
-1. **tagbar** - tags
+1. **tagbar** - теги \ tags
 1. **minimap** - minimap of code
 
 ### Style
-1. **onedark** - color theme
+1. **onedark** - кольорова схема \ color theme
 1. **lightline** - 
-1. **vim-devicons** - pictograms
-1. **vim-rainbow** - brackets colors
+1. **vim-devicons** - піктограми \ pictograms
+1. **vim-rainbow** - підсвічування дужок \ brackets colors
 1. **identLine** - scopes lines
 
 ### Code/text analysis and autocomplete
-1. **vim-gitgutter** - git support
-1. **vim-gramous** - grammar check (TO TEST)
+1. **vim-gitgutter** - підтримка git \ git support
+1. **vim-gramous** - перевірка граматики \ grammar check (TO TEST)
 1. **vimspector** - debugger
 1. **coc** - autocomplete (used for C and Python)
 
@@ -80,22 +86,4 @@ File **.vimspector.json**
     }
   }
 }
-```
-
-``` flowchart
-st=>start: Start|past:>http://www.google.com[blank]
-e=>end: End|future:>http://www.google.com
-op1=>operation: My Operation|past
-op2=>operation: Stuff|current
-sub1=>subroutine: My Subroutine|invalid
-cond=>condition: Yes
-or No?|approved:>http://www.google.com
-c2=>condition: Good idea|rejected
-io=>inputoutput: catch something...|future
-
-st->op1(right)->cond
-cond(yes, right)->c2
-cond(no)->sub1(left)->op1
-c2(yes)->io->e
-c2(no)
 ```
